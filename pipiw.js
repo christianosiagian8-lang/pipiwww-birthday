@@ -82,7 +82,7 @@ document.getElementById('openBtn').addEventListener('click', () => {
   // spawn confetti/hearts
   spawnConfetti(30);
   // open PPT in new tab
-  window.open(pptLink, '_blank');
+  window.open(https://drive.google.com/file/d/1DyFfGxqh4icCh_8-BpVvrJ7Lkk97kIgR/view?usp=sharing, '_blank');
 });
 
 // ----- Decorations: hearts + confetti -----
@@ -126,5 +126,6 @@ setInterval(()=> {
   const y = window.innerHeight + 40;
   spawnHeart(x, y, 16 + Math.random()*14);
 }, 1600);
+
 
 
