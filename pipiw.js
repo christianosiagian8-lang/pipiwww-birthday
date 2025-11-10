@@ -76,7 +76,7 @@ playBtn.addEventListener('click', () => {
 
 // ----- Open PPT button -----
 // GANTI baris ini dengan link PPT kamu (Google Drive / OneDrive share link)
-const pptLink = "https://drive.google.com/file/d/1DyFfGxqh4icCh_8-BpVvrJ7Lkk97kIgR/view?usp=sharing";
+const pptLink = "https://drive.google.com/uc?export=download&id=1DyFfGxqh4icCh_8-BpVvrJ7Lkk97kIgR";
 
 
 document.getElementById('openBtn').addEventListener('click', () => {
@@ -127,6 +127,7 @@ setInterval(()=> {
   const y = window.innerHeight + 40;
   spawnHeart(x, y, 16 + Math.random()*14);
 }, 1600);
+
 
 
 
